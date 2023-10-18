@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "一个管理各系列wxc-cli的项目",
   "main": "index.js",
+  "bin": {
+    "run": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "WXC",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.6"
+  },
+  "devDependencies": {
+    "download-git-repo": "^3.0.2"
+  }
 }
