@@ -1,10 +1,10 @@
 {
   "name": "pre-wxc-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个管理各系列wxc-cli的项目",
   "main": "index.js",
   "bin": {
-    "run": "./bin/cli.js"
+    "wxc": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
