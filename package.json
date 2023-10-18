@@ -1,6 +1,6 @@
 {
   "name": "pre-wxc-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一个管理各系列wxc-cli的项目",
   "main": "index.js",
   "bin": {
@@ -15,9 +15,8 @@
     "axios": "^1.5.1",
     "commander": "^11.1.0",
     "fs-extra": "^11.1.1",
-    "inquirer": "^8.2.6"
-  },
-  "devDependencies": {
+    "inquirer": "^8.2.6",
     "download-git-repo": "^3.0.2"
-  }
+  },
+  "devDependencies": {}
 }
