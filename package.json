@@ -1,6 +1,6 @@
 {
   "name": "pre-wxc-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "一个管理各系列wxc-cli的项目",
   "main": "index.js",
   "bin": {
